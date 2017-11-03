@@ -2,6 +2,7 @@
   "name": "react-native-global-modal",
   "version": "0.0.1",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": "git@github.com:echoulen/react-native-global-modal.git",
   "author": "echoulen <echoulen@gmail.com>",
   "license": "MIT",
