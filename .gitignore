@@ -36,7 +36,6 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
-.travis.yml
 tslint.json
 yarn.lock
 tsconfig.json

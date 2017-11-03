@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- 6
+script:
+- npm test
+cache:
+  directories:
+    - "node_modules"
+deploy:
+  provider: npm
+  email: echoulen@gmail.com
+  api_key:
+    secure: BkY4UHrkUTiOTYQJHghWqVoJFoYJed5vf1BClgUT+eZNH4c2IJYKZexMt6hIFXDyRESKnVInfFh79oAqt8R4MWDRU401wQNEHJ0E/6F8ioXXzDfZhEyGREd6/0nOJRAPiSW6UYQ3V6M3A0PgaQQMcWNtFwM7etvn6hptHBgtv4rz7iPvvqSsdBN78NFMyFqY/JfipT0FEmI+OvQMLoxOf0gkly1MpNZNpS7q4xorVGyAgpgTHL2SS9M2Y6f/KN4UHIJRqMwboDTtqxPL0Wc4KZxtPJh0r3+EFYYpRU3WdJH7QMHQydMk57n4adsYmdwHw2N++32m7J0tVtAKSrDGoP/4dYZsrA6Pj6bwzQ0k7jBR6MmkNGbQM0HIPbxuiqWBz7ioEBeLmlD2exZUPTzPbc6DmkRpEiGoif+a6ZaqiTScemXpVteypib2g4mmiaUK8Wedt1k+6CVHUCqz+6z57vfxlEBaqmt43Q7mBCFs8CQ6pbc+Vf+OPs5kGoNyKZLcDrsw1b/WOagV2eDK5IucwNtu3AKtcM1A8feHLdd/XkfM0UITheh+6Xt5hA0wor0Gs3HWXla3IJ7rxuB1E1W/H4LlkFq3WEd+moK6Go6xfFSv9QmaYW66LK26nIuzzf0vjq3MToSiktre1qtRz/hNWCXhZ60D0GWRZ3PiM8r8nh0=
+  on:
+    tags: next
+  skip_cleanup: true
