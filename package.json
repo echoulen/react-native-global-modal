@@ -22,7 +22,7 @@
     "start:ios": "react-native run-ios",
     "test": "npm run lint && npm run build && jest",
     "release": "standard-version",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test"
   },
   "dependencies": {
     "react": "16.0.0-beta.5",
@@ -44,7 +44,6 @@
     "standard-version": "^4.2.0",
     "tslint": "^5.8.0",
     "tslint-react": "^3.2.0",
-    "types": "^0.1.0",
     "typescript": "^2.5.3"
   },
   "jest": {
