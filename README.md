@@ -5,6 +5,10 @@ Single instance Modal in Global scope
 [![npm version](https://badge.fury.io/js/react-native-global-modal.svg)](https://badge.fury.io/js/react-native-global-modal)
 [![license](https://img.shields.io/github/license/echoulen/react-native-global-modal.svg)](https://opensource.org/licenses/MIT)
 
+### Preview
+![](https://media.giphy.com/media/26FeV5yUcRuPk7Zuw/giphy.gif)
+
+
 ### Usage
 ```
 import {Global} from "react-native-global-modal";
