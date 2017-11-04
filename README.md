@@ -7,11 +7,19 @@ Single instance Modal in Global scope
 
 ### Preview
 ![](https://media.giphy.com/media/26FeV5yUcRuPk7Zuw/giphy.gif)
+### install
 
+##### npm
+
+`npm install react-native-global-modal`
+
+##### yarn
+
+`yarn add react-native-global-modal`
 
 ### Usage
 ```
-import {Global} from "react-native-global-modal";
+import {GlobalＭodal} from "react-native-global-modal";
 
 export class SomeRootView extends React.Component<Props, State> {
     render() {
