@@ -1,9 +1,13 @@
 {
   "name": "react-native-global-modal",
   "version": "0.0.1",
+  "description": "Single instance Modal in Global scope",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "repository": "git@github.com:echoulen/react-native-global-modal.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:echoulen/react-native-global-modal.git"
+  },
   "author": "echoulen <echoulen@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -45,5 +49,14 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/echoulen/react-native-global-modal/issues"
+  },
+  "homepage": "https://github.com/echoulen/react-native-global-modal#readme",
+  "keywords": [
+    "typescript",
+    "modal",
+    "react-native"
+  ]
 }
