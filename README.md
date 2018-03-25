@@ -18,7 +18,7 @@ Single instance Modal in Global scope
 `yarn add react-native-global-modal`
 
 ### Usage
-```
+```js
 import {GlobalＭodal} from "react-native-global-modal";
 
 export class SomeRootView extends React.Component<Props, State> {
@@ -33,16 +33,16 @@ export class SomeRootView extends React.Component<Props, State> {
 ```
 
 ### API
-```
+```js
 GlobalModal.open(renderFunction)
 ```
 
-```
+```js
 GlobalModal.close()
 ```
 
 ### Render Example
-```
+```js
 () => (
     <View style={styles.modalContainer}>
         <Text style={styles.modalText}>Modal 2</Text>
