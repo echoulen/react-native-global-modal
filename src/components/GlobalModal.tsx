@@ -22,8 +22,8 @@ export class GlobalModal extends React.Component<GlobalModalProps, GlobalModalSt
 
     private disposable: IDisposable;
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {render: null};
     }
 
